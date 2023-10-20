@@ -16,7 +16,6 @@ st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 # st.markdown("# Southern Nebula")
 
 # render image-comparison
-@st.cache_data
 image_comparison(
     img1="no_mask.png",
     img2="with_mask.png",
