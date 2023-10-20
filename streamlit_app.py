@@ -3,7 +3,13 @@ import pandas as pd
 import numpy as np
 from streamlit_image_comparison import image_comparison
 
-
+hide_streamlit_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
 
 # st.title("James Webb vs Hubble Telescope Pictures")
 
