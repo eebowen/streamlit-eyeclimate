@@ -17,10 +17,10 @@ st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 # render image-comparison
 image_comparison(
-    img1="https://www.webbcompare.com/img/hubble/southern_nebula_700.jpg",
-    img2="https://www.webbcompare.com/img/webb/southern_nebula_700.jpg",
-    label1="Hubble",
-    label2="Webb"
+    img1="no_mask.png",
+    img2="with_mask.png",
+    label1="",
+    label2=""
 )
 
 
