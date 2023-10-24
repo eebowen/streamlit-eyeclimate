@@ -26,7 +26,7 @@ st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 image_comparison(
     img1="no_mask.png",
     img2="with_mask.png",
-    label1="Methane Leakage from a Factory",
+    label1="Methane Leakage from an Agricultural Site",
     label2="",
     starting_position=46
     # width=width
