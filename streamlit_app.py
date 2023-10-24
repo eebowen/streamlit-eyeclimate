@@ -26,6 +26,14 @@ image_comparison(
     # width=width
 )
 
+image_comparison(
+    img1="slider2a.png",
+    img2="slider2b.png",
+    label1="",
+    label2="",
+    # starting_position=35
+    # width=width
+)
 
 # st.markdown("# Galaxy Cluster SMACS 0723")
 
