@@ -22,6 +22,7 @@ image_comparison(
     img2="with_mask.png",
     label1="",
     label2="",
+    starting_position=35
     # width=width
 )
 
