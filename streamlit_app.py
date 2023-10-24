@@ -37,7 +37,7 @@ image_comparison(
     img2="slider2b.png",
     label1="Methane Leakage from Storage Tanks",
     label2="",
-    # starting_position=35
+    starting_position=46
     # width=width
 )
 
