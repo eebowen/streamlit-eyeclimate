@@ -14,7 +14,7 @@ st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 # st.title("James Webb vs Hubble Telescope Pictures")
 
 # st.markdown("# Southern Nebula")
-width = st.screen.width
+# width = st.screen.width
 
 # render image-comparison
 image_comparison(
@@ -22,7 +22,7 @@ image_comparison(
     img2="with_mask.png",
     label1="",
     label2="",
-    width=width
+    # width=width
 )
 
 
